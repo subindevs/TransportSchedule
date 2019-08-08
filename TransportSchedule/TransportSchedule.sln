@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportSchedule", "TransportSchedule\TransportSchedule.csproj", "{CC6A8ED2-A825-4D15-BD9A-4BC7EE46F634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC6A8ED2-A825-4D15-BD9A-4BC7EE46F634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6A8ED2-A825-4D15-BD9A-4BC7EE46F634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6A8ED2-A825-4D15-BD9A-4BC7EE46F634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6A8ED2-A825-4D15-BD9A-4BC7EE46F634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1905DD6D-E557-46F7-AFBD-CC04BC2669A8}
+	EndGlobalSection
+EndGlobal
