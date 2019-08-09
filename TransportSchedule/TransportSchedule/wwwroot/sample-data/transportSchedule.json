@@ -1,0 +1,29 @@
+[
+  {
+    "time": 745,
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 24,
+    "vehicle":"Bus",
+    "notes": ""
+  },
+  {
+    "time": 830,
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 24,
+    "vehicle": "Bus",
+    "notes": ""
+  },
+  {
+    "time": 1830,
+    "from": "FretB",
+    "to": "Indusctrest",
+    "capacity": 24,
+    "vehicle": "Bus",
+    "notes": ""
+  }
+
+
+
+]

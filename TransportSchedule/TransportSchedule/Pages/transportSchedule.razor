@@ -1,0 +1,50 @@
+﻿@page "/transportSchedule"
+@inject HttpClient Http
+
+<h3>transportSchedule</h3>
+
+<p> Tranport schedule between tifr and induscrest</p>
+@if (schedule == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+else
+{
+    <h4> IndusCrest to Tifr</h4>
+    <table class="table">
+        <thead>
+        <th> Time </th>
+        <th> Capacity</th>
+        <th> Vehicle</th>
+        </thead>
+        <tbody>
+            @foreach (var trip in schedule)
+                @if (trip.from == "IndusCrest")
+                {
+                    {
+                        <tr>
+                            <td>@trip.time.ToString()</td>
+                            <td>@trip.capacity.ToString()</td>
+                            <td>@trip.vehicle</td>
+                        </tr>
+                    }
+
+                }
+            </tbody>
+    </table>
+
+}
+
+
+
+
+@code {
+    Trip[] schedule;
+
+    protected override async Task OnInitAsync()
+    {
+        schedule = await Http.GetJsonAsync<Trip[]>("sample-data/transportSchedule.json");
+    }
+
+}
