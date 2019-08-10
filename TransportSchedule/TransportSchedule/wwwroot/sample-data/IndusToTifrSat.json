@@ -1,0 +1,59 @@
+[
+
+  {
+    "time": "07:30",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "07:45",
+    "capacity": 12,
+    "vehicle": "Winger",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "08:15",
+    "capacity": 30,
+    "day": "weekday",
+    "vehicle": "Bus",
+    "notes": ""
+  },
+  {
+    "time": "09:00",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "09:00",
+    "capacity": 12,
+    "vehicle": "Winger",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "09:45",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "10:30",
+    "capacity": 12,
+    "vehicle": "Winger",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "11:30",
+    "capacity": 12,
+    "vehicle": "Winger",
+    "day": "weekday",
+    "notes": ""
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "time": "16:30",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "notes": ""
+  },
+  {
+    "time": "20:00",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "notes": ""
+  },
+  {
+    "time": "21:00",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "notes": ""
+  },
+  {
+    "time": "22:00",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "notes": ""
+  },
+  {
+    "time": "23:00",
+    "capacity": 4,
+    "vehicle": "Car",
+    "notes": ""
+  },
+  {
+    "time": "00:00",
+    "capacity": 4,
+    "vehicle": "Car",
+    "notes": ""
+  },
+  {
+    "time": "01:00",
+    "capacity": 4,
+    "vehicle": "Car",
+    "notes": ""
+  },
+  {
+    "time": "02:00",
+    "capacity": 4,
+    "vehicle": "Car",
+    "notes": ""
+  }
+
+]

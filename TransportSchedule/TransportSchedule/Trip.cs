@@ -11,9 +11,6 @@ namespace TransportSchedule
         {
 
         }
-
-        public string from { get; set; }
-        public string to { get; set; }
         public string  time { get; set; }
         public int capacity { get; set; }
         public string vehicle { get; set; }

@@ -57,51 +57,77 @@
         margin-left: 5px;
     }
 </style>
-<h3>transportSchedule</h3>
+<h3>Transport Schedule</h3>
 
 <p> Tranport schedule between tifr and induscrest </p>
 
-@if (schedule == null)
-{
-    <p><em>Loading...</em></p>
-}
-
-else
-{
     <button class=@button1class @onclick=@(() => hideContent("button1"))> IndusCrest to Tifr on weekdays</button>
     <div class=@button1contentclass>
-        <table class="table">
-            <thead>
-            <th> Time </th>
-            <th> Capacity</th>
-            <th> Vehicle</th>
-            </thead>
-            <tbody>
-                @foreach (var trip in schedule)
-                    @if (trip.from == "IndusCrest" && trip.day == "weekday")
+        @if (IndusToTifrReg == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                <th> Time </th>
+                <th> Capacity</th>
+                <th> Vehicle</th>
+                </thead>
+                <tbody>
+                    @foreach (var trip in IndusToTifrReg)
                     {
-                        {
-                            <tr>
-                                <td>@TimeSpan.Parse(trip.time).ToString()</td>
-                                <td>@trip.capacity.ToString()</td>
-                                <td>@trip.vehicle</td>
-                            </tr>
-                        }
-
+                        <tr>
+                            <td>@TimeSpan.Parse(trip.time).ToString()</td>
+                            <td>@trip.capacity.ToString()</td>
+                            <td>@trip.vehicle</td>
+                        </tr>
                     }
                 </tbody>
             </table>
+        }
+
+    </div>
+
+    <button class=@button2class @onclick=@(() => hideContent("button2"))> Tifr to IndusCrest on weekdays</button>
+    <div class=@button2contentclass>
+        @if (TifrToIndusReg == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <table class="table">
+                <thead>
+                <th> Time </th>
+                <th> Capacity</th>
+                <th> Vehicle</th>
+                </thead>
+                <tbody>
+                    @foreach (var trip2 in TifrToIndusReg)
+                    {
+                    <tr>
+                        <td>@TimeSpan.Parse(trip2.time).ToString()</td>
+                        <td>@trip2.capacity.ToString()</td>
+                        <td>@trip2.vehicle</td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
     </div>
 
     
 
-    }
 
 
 
 
 @code {
-    Trip[] schedule;
+    Trip[] IndusToTifrReg;
+    Trip[] TifrToIndusReg;
     private string visible = "contentvisible";
     private string hidden = "contenthidden";
 
@@ -120,7 +146,8 @@ else
 
     protected override async Task OnInitAsync()
     {
-        schedule = await Http.GetJsonAsync<Trip[]>("sample-data/transportSchedule.json");
+        IndusToTifrReg = await Http.GetJsonAsync<Trip[]>("sample-data/IndusToTifrReg.json");
+        TifrToIndusReg = await Http.GetJsonAsync<Trip[]>("sample-data/TifrToIndusReg.json");
     }
 
     private string swap(string status)
@@ -151,6 +178,13 @@ else
             button1contentclass = swap(button1contentclass);
             button1class = swap(button1class);
         }
+
+        if (bname == "button2")
+        {
+            button2contentclass = swap(button2contentclass);
+            button2class = swap(button2class);
+        }
+        
 
     }
 
