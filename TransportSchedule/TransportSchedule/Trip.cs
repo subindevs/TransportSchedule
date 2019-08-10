@@ -14,9 +14,10 @@ namespace TransportSchedule
 
         public string from { get; set; }
         public string to { get; set; }
-        public int  time { get; set; }
+        public string  time { get; set; }
         public int capacity { get; set; }
         public string vehicle { get; set; }
+        public string day { get; set; }
         public string notes { get; set; }
         
         

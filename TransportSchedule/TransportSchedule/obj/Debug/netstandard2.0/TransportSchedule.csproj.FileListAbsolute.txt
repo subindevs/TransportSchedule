@@ -123,3 +123,4 @@ C:\Users\RAJVI\Documents\GitHub\TransportSchedule\TransportSchedule\TransportSch
 C:\Users\RAJVI\Documents\GitHub\TransportSchedule\TransportSchedule\TransportSchedule\obj\Debug\netstandard2.0\blazor\linker\TransportSchedule.pdb
 C:\Users\RAJVI\Documents\GitHub\TransportSchedule\TransportSchedule\TransportSchedule\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
 C:\Users\RAJVI\Documents\GitHub\TransportSchedule\TransportSchedule\TransportSchedule\obj\Debug\netstandard2.0\blazor\blazor.boot.json
+C:\Users\RAJVI\Documents\GitHub\TransportSchedule\TransportSchedule\TransportSchedule\obj\Debug\netstandard2.0\TransportSchedule.csprojAssemblyReference.cache

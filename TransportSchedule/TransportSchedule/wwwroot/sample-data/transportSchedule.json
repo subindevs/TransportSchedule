@@ -1,26 +1,147 @@
 [
+
   {
-    "time": 745,
+    "time": "07:30",
     "from": "IndusCrest",
     "to": "FretB",
-    "capacity": 24,
-    "vehicle":"Bus",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
     "notes": ""
   },
   {
-    "time": 830,
+    "time": "07:45",
     "from": "IndusCrest",
     "to": "FretB",
-    "capacity": 24,
+    "capacity": 12,
+    "vehicle": "Winger",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "08:15",
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 30,
+    "day": "weekday",
     "vehicle": "Bus",
     "notes": ""
   },
   {
-    "time": 1830,
+    "time": "09:00",
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "09:00",
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 12,
+    "vehicle": "Winger",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "09:45",
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "10:30",
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 24,
+    "vehicle": "Winger + Winger",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "11:30",
+    "from": "IndusCrest",
+    "to": "FretB",
+    "capacity": 12,
+    "vehicle": "Winger",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "16:30",
     "from": "FretB",
-    "to": "Indusctrest",
-    "capacity": 24,
+    "to": "IndusCrest",
+    "capacity": 30,
     "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "20:00",
+    "from": "FretB",
+    "to": "IndusCrest",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "21:00",
+    "from": "FretB",
+    "to": "IndusCrest",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "22:00",
+    "from": "FretB",
+    "to": "IndusCrest",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "22:30",
+    "from": "FretB",
+    "to": "IndusCrest",
+    "capacity": 30,
+    "vehicle": "Bus",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "23:00",
+    "from": "FretB",
+    "to": "IndusCrest",
+    "capacity": 8,
+    "vehicle": "Car + Car",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "23:30",
+    "from": "FretB",
+    "to": "IndusCrest",
+    "capacity": 4,
+    "vehicle": "Car",
+    "day": "weekday",
+    "notes": ""
+  },
+  {
+    "time": "24:00",
+    "from": "FretB",
+    "to": "IndusCrest",
+    "capacity": 4,
+    "vehicle": "Car",
+    "day": "weekday",
     "notes": ""
   }
 
